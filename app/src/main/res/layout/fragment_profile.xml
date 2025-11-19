@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Stored Information"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="25dp"
+            android:padding="10dp"
+            android:background="#C8E6C9" />
+
+        <!-- Data Display Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="24dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Personal Details:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#37474F"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Name Display -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#546E7A" />
+
+                <TextView
+                    android:id="@+id/text_display_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Not provided"
+                    android:textSize="15sp"
+                    android:textColor="#263238" />
+
+            </LinearLayout>
+
+            <!-- Email Display -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#546E7A" />
+
+                <TextView
+                    android:id="@+id/text_display_email"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Not provided"
+                    android:textSize="15sp"
+                    android:textColor="#263238" />
+
+            </LinearLayout>
+
+            <!-- Password Display -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Password:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#546E7A" />
+
+                <TextView
+                    android:id="@+id/text_display_password"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Not provided"
+                    android:textSize="15sp"
+                    android:textColor="#263238" />
+
+            </LinearLayout>
+
+            <!-- Contact Display -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Contact:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#546E7A" />
+
+                <TextView
+                    android:id="@+id/text_display_contact"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Not provided"
+                    android:textSize="15sp"
+                    android:textColor="#263238" />
+
+            </LinearLayout>
+
+            <!-- City Display -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="City:"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#546E7A" />
+
+                <TextView
+                    android:id="@+id/text_display_city"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="Not provided"
+                    android:textSize="15sp"
+                    android:textColor="#263238" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Refresh Button -->
+        <Button
+            android:id="@+id/btn_refresh_view"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Refresh Information"
+            android:textColor="#FFFFFF"
+            android:background="#2196F3"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</ScrollView>
