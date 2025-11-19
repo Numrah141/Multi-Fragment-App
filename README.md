@@ -12,11 +12,13 @@ User-Friendly Navigation: Easy switching between fragments
 
 Reset Functionality: Clear all stored data with one click
 
-
-<img width="210" height="2400" alt="potrait" src="https://github.com/Numrah141/Multi-Fragment-App/blob/main/Screenshot_20251119_113214.png?raw=true" />
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="210" height="2400" alt="potrait" src="https://github.com/Numrah141/Multi-Fragment-App/blob/main/Screenshot_20251119_113311.png?raw=true" />
-
-<img width="210" height="2400" alt="potrait" src="https://github.com/Numrah141/Multi-Fragment-App/blob/main/Screenshot_20251119_113323.png?raw=true" />
-<img width="210" height="2400" alt="potrait" src="https://github.com/Numrah141/Multi-Fragment-App/blob/main/Screenshot_20251119_113337.png?raw=true" />
+<table>
+  <tr>
+    <td><img src="https://github.com/Numrah141/Multi-Fragment-App/blob/main/Screenshot_20251119_113214.png?raw=true" width="210" /></td>
+    <td><img src="https://github.com/Numrah141/Multi-Fragment-App/blob/main/Screenshot_20251119_113311.png?raw=true" width="210" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Numrah141/Multi-Fragment-App/blob/main/Screenshot_20251119_113323.png?raw=true" width="210" /></td>
+    <td><img src="https://github.com/Numrah141/Multi-Fragment-App/blob/main/Screenshot_20251119_113337.png?raw=true" width="210" /></td>
+  </tr>
+</table>
