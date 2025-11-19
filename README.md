@@ -11,3 +11,6 @@ Data Validation: Ensures all fields are properly filled
 User-Friendly Navigation: Easy switching between fragments
 
 Reset Functionality: Clear all stored data with one click
+
+
+<img width="210" height="2400" alt="potrait" src="https://github.com/user-attachments/assets/216c943e-0f01-4327-b9ba-d8b17ecaf7f3" />
